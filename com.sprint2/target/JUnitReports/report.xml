@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.999">
+    <testcase classname="feature to test the redbus manage ticket functionality" name="to validate whether user is able to cancel the ticket" time="9.893">
+        <system-out><![CDATA[Given user in on the cancellation page of redbus.in.........................passed
+And user should have  ticket detail for cancellation........................passed
+When user enters accurate details...........................................passed
+And Clicks Cancel Ticket....................................................passed
+Then user is navigated to the ticket cancellation page......................passed
+And page displays ticket cancelled successfully.............................passed
+]]></system-out>
+    </testcase>
+</testsuite>

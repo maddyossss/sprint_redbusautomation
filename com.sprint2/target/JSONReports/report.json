@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-14T07:51:17.968Z",
+        "line": 2,
+        "name": "to validate whether user is able to cancel the ticket",
+        "description": "",
+        "id": "feature-to-test-the-redbus-manage-ticket-functionality;to-validate-whether-user-is-able-to-cancel-the-ticket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4953692800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user in on the cancellation page of redbus.in",
+            "match": {
+              "location": "stepDefination.CancelDefs.user_in_on_the_cancellation_page_of_redbus_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2799154300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should have  ticket detail for cancellation",
+            "match": {
+              "location": "stepDefination.CancelDefs.user_should_have_ticket_detail_for_cancellation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters accurate details",
+            "match": {
+              "location": "stepDefination.CancelDefs.user_enters_accurate_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2092327700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks Cancel Ticket",
+            "match": {
+              "location": "stepDefination.CancelDefs.clicks_cancel_ticket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is navigated to the ticket cancellation page",
+            "match": {
+              "location": "stepDefination.CancelDefs.user_is_navigated_to_the_ticket_cancellation_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "page displays ticket cancelled successfully.",
+            "match": {
+              "location": "stepDefination.CancelDefs.page_displays_ticket_cancelled_successfully()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test the redbus manage ticket functionality",
+    "description": "",
+    "id": "feature-to-test-the-redbus-manage-ticket-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Cancel.feature",
+    "tags": []
+  }
+]
